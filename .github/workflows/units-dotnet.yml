@@ -88,7 +88,7 @@ jobs:
 
       - name: Setup .NET Core SDKs
         # v3+ definitely has issue
-        uses: actions/setup-dotnet@v4.1.0
+        uses: actions/setup-dotnet@v5.0.0
         with:
           dotnet-version: |
             6.0.x
